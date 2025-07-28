@@ -1,0 +1,171 @@
+
+/*AÑADIR PRODUCTOS*/
+body.añadir-productos{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #1F5699;
+    
+}
+
+.h2-añadir{
+    color: #BEDBF7;
+    margin: auto;
+    font: 800;
+    font-size: 2em;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor-añadir{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin: auto;
+    box-shadow: 0px 0px 10px 2px #BEDBF7;
+
+}
+
+.form-añadir{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #1D4281;
+    box-shadow: 0px 0px 10px 2px #BEDBF7;
+    
+}
+
+.input-añadir{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #1D4281;
+    border: 2px solid #BEDBF755;;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif   
+}
+
+.boton-añadir{
+    width: 100px;
+    background-color: #1D4281;
+    border:2px solid transparent;
+    color: #BEDBF7;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    margin: auto;
+}
+
+.boton-añadir:hover{
+    border: 2px solid #BEDBF755;
+    border-radius: 15px;
+    background-color: #000;
+}
+
+.boton-volver{
+    color: #BEDBF7;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    width: 70px;
+}
+
+.botones{
+    display: flex;
+    margin: auto;
+}
+
+label{
+    margin-right: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    color: #BEDBF7;
+}
+input{
+    display: inline-block;
+    color: #BEDBF7;
+}
+
+.campo{
+    margin: auto;
+}
+
+
+/*TABLA PRODUCTOS*/
+body.tabla-productos{
+    background-color: #BEDBF7;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-productos{
+    width: 100%;
+    border: 2px solid #000;
+
+}
+
+.tabla-prod{
+    width: 100%;
+}
+
+.ctn-botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    border: 2px solid #000;
+}
+
+.btn-volver-mp{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    text-align:left ;
+    text-decoration: none;
+    color: #000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    border: 2px solid transparent;
+    padding: 5px;
+}
+
+.btn-volver-mp:hover{
+    border: 2px solid #0005;
+    border-radius: 5px;
+}
+
+.h2-productos2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+}
+
+
+
+
+
+/*ELIMINAR*/
+body.tabla-eliminar{
+    background-color: #BEDBF7;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-eliminar{
+    width: 100%;
+    border: 2px solid #000;
+
+}
+
+.tabla{
+    width: 100%;
+}
+
+.h2-productos{
+    border: 2px solid #000;
+    margin: auto;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+}
+td{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
